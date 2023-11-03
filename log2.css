@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive, sans-serif;
+    height: 100vh;
+    background-image: url(https://cdn5.f-cdn.com/contestentries/1578585/21468461/5d62b49ac544b_thumb900.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 450px;
+    height: auto;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+h1{
+    margin: 20px 0px 35px 0px;
+}
+.login-input{
+    display: flex;
+    justify-content: center;
+}
+.div-password{
+    margin-top: 10px;
+}
+input{
+    background-color: transparent;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.user{
+    visibility: hidden;
+    transition: .2s;
+}
+.pass{
+    visibility: hidden;
+    transition: .2s;
+}
+.div-ezay-log{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.forget-pass{
+    padding-left: 30px;
+}
+.box{
+    width: 50px;
+}
+.div-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.button{
+    width: 100%;
+    padding: 10px;
+    font-size: 5mm;
+    color: white;
+    background: linear-gradient(to right, #fce0ee,#eacde9,#9185ab,#524d75);
+    background-blend-mode: multiply;
+    border: none;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+.button:active{
+    border: 1px solid ;
+}
+.remaber{
+    margin-left: 5px;
+}
+input[type="checkbox"] {
+    -webkit-appearance: none; /* Remove default checkbox appearance for WebKit browsers */
+    -moz-appearance: none; /* Remove default checkbox appearance for Firefox */
+    appearance: none; /* Remove default checkbox appearance for modern browsers */
+    width: 14px;
+    height: 14px;
+    border: 2px solid black; /* Set border color to desired color */
+    border-radius: 3px;
+    outline: none; /* Remove focus outline */
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #9185ab; /* Set background color to desired color */
+  }
+  
+  input[type="checkbox"]:checked::after {
+    content: "✔"; /* Add a check mark symbol */
+    display: block;
+    color: white; /* Set check mark color to desired color */
+    text-align: center;
+    line-height: 14px;
+    font-size: 20px;
+    position: relative;
+    left: -8px;
+    top: -5px;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="log2.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Login Account</h1>
+        </div>
+        <div class="login-input">
+            <form action="">
+                <div class="div-username">
+                    <label for="username" id="user" class="user">Username</label>
+                    <br>
+                    <input type="text" name="username" id="username" class="username"  oninput="showLabel()" placeholder="Email ID" required>
+                </div>
+                <div class="div-password">
+                    <label for="password" id="pass" class="pass">Password</label>
+                    <br>
+                    <input type="password" name="password" id="password" oninput="showLabel()" placeholder="password" required>
+                </div>
+                <div class="div-ezay-log">
+                    <input type="checkbox" class="box">
+                    <label for="" class="remaber">Remember me</label>
+                    <p class="forget-pass">Forget the password ?</p>
+                </div>
+                <div class="div-button">
+                    <button class="button" id="button">LOGIN</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="log2.js"></script>
+</body>
+</html>
