@@ -1,4 +1,5 @@
 /* Abdeljalil47 */
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ body{
     background-size: cover;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -116,4 +118,21 @@ input[type="checkbox"] {
     position: relative;
     left: -8px;
     top: -5px;
-  }
+}
+main {
+    flex-grow: 0;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    flex-shrink: 0;
+    background-color: #524d75;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.a-name{
+    color: white;
+}

@@ -8,33 +8,40 @@
 </head>
 <body>
     <!-- Abdeljalil47 -->
-    <div class="container">
-        <div class="header">
-            <h1>Login Account</h1>
+    <main>
+        <div class="container">
+            <div class="header">
+                <h1>Login Account</h1>
+            </div>
+            <div class="login-input">
+                <form action="">
+                    <div class="div-username">
+                        <label for="username" id="user" class="user">Username</label>
+                        <br>
+                        <input type="text" name="username" id="username" class="username"  oninput="showLabel()" placeholder="Email ID" required>
+                    </div>
+                    <div class="div-password">
+                        <label for="password" id="pass" class="pass">Password</label>
+                        <br>
+                        <input type="password" name="password" id="password" oninput="showLabel()" placeholder="password" required>
+                    </div>
+                    <div class="div-ezay-log">
+                        <input type="checkbox" class="box">
+                        <label for="" class="remaber">Remember me</label>
+                        <p class="forget-pass">Forget the password ?</p>
+                    </div>
+                    <div class="div-button">
+                        <button class="button" id="button">LOGIN</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="login-input">
-            <form action="">
-                <div class="div-username">
-                    <label for="username" id="user" class="user">Username</label>
-                    <br>
-                    <input type="text" name="username" id="username" class="username"  oninput="showLabel()" placeholder="Email ID" required>
-                </div>
-                <div class="div-password">
-                    <label for="password" id="pass" class="pass">Password</label>
-                    <br>
-                    <input type="password" name="password" id="password" oninput="showLabel()" placeholder="password" required>
-                </div>
-                <div class="div-ezay-log">
-                    <input type="checkbox" class="box">
-                    <label for="" class="remaber">Remember me</label>
-                    <p class="forget-pass">Forget the password ?</p>
-                </div>
-                <div class="div-button">
-                    <button class="button" id="button">LOGIN</button>
-                </div>
-            </form>
+    </main>
+    <footer>
+        <div class="foote">
+            <p class="p-foote">Created by <a class="a-name" href="https://instagram.com/its_abdeljalil47?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">@ABDELJALIL</a> | &copy; 2023 all rights reserved</p>
         </div>
-    </div>
+    </footer>
     <script src="log2.js"></script>
 </body>
 </html>

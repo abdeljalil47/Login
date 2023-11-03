@@ -1,6 +1,4 @@
-
 /* Abdeljalil47 */
-
 
 /* username label */
 function showLabel() {
